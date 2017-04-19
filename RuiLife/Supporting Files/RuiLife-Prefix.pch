@@ -1,0 +1,21 @@
+//
+//  RuiLife-Prefix.pch
+//  RuiLife
+//
+//  Created by Mac on 19/4/17.
+//  Copyright © 2017年 huarui. All rights reserved.
+//
+
+#ifndef RuiLife_Prefix_pch
+#define RuiLife_Prefix_pch
+
+
+// 控制台输出 ： 方法名 + [行数] + 输出内容
+#ifdef DEBUG
+#define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#define DLog(...)
+#endif
+
+
+#endif /* RuiLife_Prefix_pch */

@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04B4CC931EA6F0EE00AFD011 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B4CC921EA6F0EE00AFD011 /* main.m */; };
-		04B4CC961EA6F0EE00AFD011 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B4CC951EA6F0EE00AFD011 /* AppDelegate.m */; };
-		04B4CC991EA6F0EE00AFD011 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B4CC981EA6F0EE00AFD011 /* ViewController.m */; };
-		04B4CC9C1EA6F0EE00AFD011 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B4CC9A1EA6F0EE00AFD011 /* Main.storyboard */; };
+		0453C5F81EA7113E00F7D5AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453C5F41EA7113E00F7D5AE /* AppDelegate.m */; };
+		0453C5F91EA7113E00F7D5AE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0453C5F51EA7113E00F7D5AE /* Info.plist */; };
+		0453C5FA1EA7113E00F7D5AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0453C5F61EA7113E00F7D5AE /* LaunchScreen.storyboard */; };
+		0453C5FB1EA7113E00F7D5AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453C5F71EA7113E00F7D5AE /* main.m */; };
+		0453C60B1EA713C200F7D5AE /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453C6091EA713C200F7D5AE /* AccountViewController.m */; };
+		0453C60C1EA713C200F7D5AE /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0453C60A1EA713C200F7D5AE /* AccountViewController.xib */; };
+		0453C6101EA713D100F7D5AE /* DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453C60E1EA713D100F7D5AE /* DeviceViewController.m */; };
+		0453C6111EA713D100F7D5AE /* DeviceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0453C60F1EA713D100F7D5AE /* DeviceViewController.xib */; };
+		0453C6151EA713DE00F7D5AE /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453C6131EA713DE00F7D5AE /* DiscoverViewController.m */; };
+		0453C6161EA713DE00F7D5AE /* DiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0453C6141EA713DE00F7D5AE /* DiscoverViewController.xib */; };
+		0453C61A1EA713EB00F7D5AE /* SceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453C6181EA713EB00F7D5AE /* SceneViewController.m */; };
+		0453C61B1EA713EB00F7D5AE /* SceneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0453C6191EA713EB00F7D5AE /* SceneViewController.xib */; };
+		0453C61F1EA713FA00F7D5AE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453C61D1EA713FA00F7D5AE /* LoginViewController.m */; };
+		0453C6201EA713FA00F7D5AE /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0453C61E1EA713FA00F7D5AE /* LoginViewController.xib */; };
+		0453C6241EA7141D00F7D5AE /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453C6221EA7141D00F7D5AE /* RegistViewController.m */; };
+		0453C6251EA7141D00F7D5AE /* RegistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0453C6231EA7141D00F7D5AE /* RegistViewController.xib */; };
 		04B4CC9E1EA6F0EE00AFD011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B4CC9D1EA6F0EE00AFD011 /* Assets.xcassets */; };
-		04B4CCA11EA6F0EE00AFD011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B4CC9F1EA6F0EE00AFD011 /* LaunchScreen.storyboard */; };
 		04B4CCAC1EA6F0EE00AFD011 /* RuiLifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B4CCAB1EA6F0EE00AFD011 /* RuiLifeTests.m */; };
 		04B4CCB71EA6F0EE00AFD011 /* RuiLifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B4CCB61EA6F0EE00AFD011 /* RuiLifeUITests.m */; };
 		6423DD528AD33D930B31F352 /* libPods-RuiLife.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CD82CDD29D002547F47653 /* libPods-RuiLife.a */; };
@@ -36,16 +47,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0453C5F31EA7113E00F7D5AE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0453C5F41EA7113E00F7D5AE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0453C5F51EA7113E00F7D5AE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0453C5F61EA7113E00F7D5AE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0453C5F71EA7113E00F7D5AE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0453C6081EA713C200F7D5AE /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		0453C6091EA713C200F7D5AE /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		0453C60A1EA713C200F7D5AE /* AccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
+		0453C60D1EA713D100F7D5AE /* DeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceViewController.h; sourceTree = "<group>"; };
+		0453C60E1EA713D100F7D5AE /* DeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceViewController.m; sourceTree = "<group>"; };
+		0453C60F1EA713D100F7D5AE /* DeviceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceViewController.xib; sourceTree = "<group>"; };
+		0453C6121EA713DE00F7D5AE /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		0453C6131EA713DE00F7D5AE /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		0453C6141EA713DE00F7D5AE /* DiscoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoverViewController.xib; sourceTree = "<group>"; };
+		0453C6171EA713EB00F7D5AE /* SceneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneViewController.h; sourceTree = "<group>"; };
+		0453C6181EA713EB00F7D5AE /* SceneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneViewController.m; sourceTree = "<group>"; };
+		0453C6191EA713EB00F7D5AE /* SceneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SceneViewController.xib; sourceTree = "<group>"; };
+		0453C61C1EA713FA00F7D5AE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0453C61D1EA713FA00F7D5AE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0453C61E1EA713FA00F7D5AE /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		0453C6211EA7141D00F7D5AE /* RegistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistViewController.h; sourceTree = "<group>"; };
+		0453C6221EA7141D00F7D5AE /* RegistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistViewController.m; sourceTree = "<group>"; };
+		0453C6231EA7141D00F7D5AE /* RegistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistViewController.xib; sourceTree = "<group>"; };
+		0453C6261EA7151800F7D5AE /* RuiLife-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RuiLife-Prefix.pch"; sourceTree = "<group>"; };
 		04B4CC8E1EA6F0EE00AFD011 /* RuiLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuiLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		04B4CC921EA6F0EE00AFD011 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		04B4CC941EA6F0EE00AFD011 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		04B4CC951EA6F0EE00AFD011 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04B4CC971EA6F0EE00AFD011 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04B4CC981EA6F0EE00AFD011 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		04B4CC9B1EA6F0EE00AFD011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04B4CC9D1EA6F0EE00AFD011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		04B4CCA01EA6F0EE00AFD011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		04B4CCA21EA6F0EE00AFD011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04B4CCA71EA6F0EE00AFD011 /* RuiLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuiLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B4CCAB1EA6F0EE00AFD011 /* RuiLifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuiLifeTests.m; sourceTree = "<group>"; };
 		04B4CCAD1EA6F0EE00AFD011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,6 +110,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0453C5F21EA7113E00F7D5AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0453C5F31EA7113E00F7D5AE /* AppDelegate.h */,
+				0453C5F41EA7113E00F7D5AE /* AppDelegate.m */,
+				0453C5F51EA7113E00F7D5AE /* Info.plist */,
+				0453C5F61EA7113E00F7D5AE /* LaunchScreen.storyboard */,
+				0453C5F71EA7113E00F7D5AE /* main.m */,
+				0453C6261EA7151800F7D5AE /* RuiLife-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0453C6011EA7132C00F7D5AE /* RuiLife */ = {
+			isa = PBXGroup;
+			children = (
+				0453C6071EA7139600F7D5AE /* Public */,
+				0453C6021EA7132C00F7D5AE /* Account */,
+				0453C6031EA7132C00F7D5AE /* Device */,
+				0453C6041EA7132C00F7D5AE /* Discover */,
+				0453C6051EA7132C00F7D5AE /* Scene */,
+				0453C6061EA7132C00F7D5AE /* SignInUp */,
+			);
+			path = RuiLife;
+			sourceTree = "<group>";
+		};
+		0453C6021EA7132C00F7D5AE /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				0453C6081EA713C200F7D5AE /* AccountViewController.h */,
+				0453C6091EA713C200F7D5AE /* AccountViewController.m */,
+				0453C60A1EA713C200F7D5AE /* AccountViewController.xib */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		0453C6031EA7132C00F7D5AE /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				0453C60D1EA713D100F7D5AE /* DeviceViewController.h */,
+				0453C60E1EA713D100F7D5AE /* DeviceViewController.m */,
+				0453C60F1EA713D100F7D5AE /* DeviceViewController.xib */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		0453C6041EA7132C00F7D5AE /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				0453C6121EA713DE00F7D5AE /* DiscoverViewController.h */,
+				0453C6131EA713DE00F7D5AE /* DiscoverViewController.m */,
+				0453C6141EA713DE00F7D5AE /* DiscoverViewController.xib */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		0453C6051EA7132C00F7D5AE /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				0453C6171EA713EB00F7D5AE /* SceneViewController.h */,
+				0453C6181EA713EB00F7D5AE /* SceneViewController.m */,
+				0453C6191EA713EB00F7D5AE /* SceneViewController.xib */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		0453C6061EA7132C00F7D5AE /* SignInUp */ = {
+			isa = PBXGroup;
+			children = (
+				0453C61C1EA713FA00F7D5AE /* LoginViewController.h */,
+				0453C61D1EA713FA00F7D5AE /* LoginViewController.m */,
+				0453C61E1EA713FA00F7D5AE /* LoginViewController.xib */,
+				0453C6211EA7141D00F7D5AE /* RegistViewController.h */,
+				0453C6221EA7141D00F7D5AE /* RegistViewController.m */,
+				0453C6231EA7141D00F7D5AE /* RegistViewController.xib */,
+			);
+			path = SignInUp;
+			sourceTree = "<group>";
+		};
+		0453C6071EA7139600F7D5AE /* Public */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
 		04B4CC851EA6F0ED00AFD011 = {
 			isa = PBXGroup;
 			children = (
@@ -108,25 +221,11 @@
 		04B4CC901EA6F0EE00AFD011 /* RuiLife */ = {
 			isa = PBXGroup;
 			children = (
-				04B4CC941EA6F0EE00AFD011 /* AppDelegate.h */,
-				04B4CC951EA6F0EE00AFD011 /* AppDelegate.m */,
-				04B4CC971EA6F0EE00AFD011 /* ViewController.h */,
-				04B4CC981EA6F0EE00AFD011 /* ViewController.m */,
-				04B4CC9A1EA6F0EE00AFD011 /* Main.storyboard */,
+				0453C6011EA7132C00F7D5AE /* RuiLife */,
+				0453C5F21EA7113E00F7D5AE /* Supporting Files */,
 				04B4CC9D1EA6F0EE00AFD011 /* Assets.xcassets */,
-				04B4CC9F1EA6F0EE00AFD011 /* LaunchScreen.storyboard */,
-				04B4CCA21EA6F0EE00AFD011 /* Info.plist */,
-				04B4CC911EA6F0EE00AFD011 /* Supporting Files */,
 			);
 			path = RuiLife;
-			sourceTree = "<group>";
-		};
-		04B4CC911EA6F0EE00AFD011 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				04B4CC921EA6F0EE00AFD011 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		04B4CCAA1EA6F0EE00AFD011 /* RuiLifeTests */ = {
@@ -273,9 +372,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04B4CCA11EA6F0EE00AFD011 /* LaunchScreen.storyboard in Resources */,
+				0453C6201EA713FA00F7D5AE /* LoginViewController.xib in Resources */,
+				0453C5FA1EA7113E00F7D5AE /* LaunchScreen.storyboard in Resources */,
+				0453C6161EA713DE00F7D5AE /* DiscoverViewController.xib in Resources */,
+				0453C5F91EA7113E00F7D5AE /* Info.plist in Resources */,
+				0453C6111EA713D100F7D5AE /* DeviceViewController.xib in Resources */,
+				0453C60C1EA713C200F7D5AE /* AccountViewController.xib in Resources */,
+				0453C61B1EA713EB00F7D5AE /* SceneViewController.xib in Resources */,
+				0453C6251EA7141D00F7D5AE /* RegistViewController.xib in Resources */,
 				04B4CC9E1EA6F0EE00AFD011 /* Assets.xcassets in Resources */,
-				04B4CC9C1EA6F0EE00AFD011 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,9 +453,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04B4CC991EA6F0EE00AFD011 /* ViewController.m in Sources */,
-				04B4CC961EA6F0EE00AFD011 /* AppDelegate.m in Sources */,
-				04B4CC931EA6F0EE00AFD011 /* main.m in Sources */,
+				0453C6151EA713DE00F7D5AE /* DiscoverViewController.m in Sources */,
+				0453C6101EA713D100F7D5AE /* DeviceViewController.m in Sources */,
+				0453C5FB1EA7113E00F7D5AE /* main.m in Sources */,
+				0453C61A1EA713EB00F7D5AE /* SceneViewController.m in Sources */,
+				0453C61F1EA713FA00F7D5AE /* LoginViewController.m in Sources */,
+				0453C60B1EA713C200F7D5AE /* AccountViewController.m in Sources */,
+				0453C6241EA7141D00F7D5AE /* RegistViewController.m in Sources */,
+				0453C5F81EA7113E00F7D5AE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,25 +494,6 @@
 			targetProxy = 04B4CCB31EA6F0EE00AFD011 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		04B4CC9A1EA6F0EE00AFD011 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04B4CC9B1EA6F0EE00AFD011 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		04B4CC9F1EA6F0EE00AFD011 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04B4CCA01EA6F0EE00AFD011 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		04B4CCB91EA6F0EE00AFD011 /* Debug */ = {
@@ -502,7 +593,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = RuiLife/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RuiLife/Supporting Files/RuiLife-prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/RuiLife/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.herolife.ruilife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,7 +609,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = RuiLife/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RuiLife/Supporting Files/RuiLife-prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/RuiLife/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.herolife.ruilife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -588,6 +683,7 @@
 				04B4CCBD1EA6F0EE00AFD011 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B4CCBE1EA6F0EE00AFD011 /* Build configuration list for PBXNativeTarget "RuiLifeTests" */ = {
 			isa = XCConfigurationList;
@@ -596,6 +692,7 @@
 				04B4CCC01EA6F0EE00AFD011 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B4CCC11EA6F0EE00AFD011 /* Build configuration list for PBXNativeTarget "RuiLifeUITests" */ = {
 			isa = XCConfigurationList;
@@ -604,6 +701,7 @@
 				04B4CCC31EA6F0EE00AFD011 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

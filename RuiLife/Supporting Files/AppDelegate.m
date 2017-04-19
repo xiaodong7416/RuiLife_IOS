@@ -8,6 +8,13 @@
 
 #import "AppDelegate.h"
 
+#import "DeviceViewController.h"
+#import "SceneViewController.h"
+#import "DiscoverViewController.h"
+#import "AccountViewController.h"
+#import "LoginViewController.h"
+#import "RegistViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +24,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    DeviceViewController *deviceVC = [[DeviceViewController alloc] initWithNibName:@"DeviceViewController" bundle:nil];
+    self.window.rootViewController = deviceVC;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
