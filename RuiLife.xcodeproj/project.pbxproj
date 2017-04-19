@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B4CC931EA6F0EE00AFD011 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B4CC921EA6F0EE00AFD011 /* main.m */; };
+		04B4CC961EA6F0EE00AFD011 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B4CC951EA6F0EE00AFD011 /* AppDelegate.m */; };
+		04B4CC991EA6F0EE00AFD011 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B4CC981EA6F0EE00AFD011 /* ViewController.m */; };
+		04B4CC9C1EA6F0EE00AFD011 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B4CC9A1EA6F0EE00AFD011 /* Main.storyboard */; };
+		04B4CC9E1EA6F0EE00AFD011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B4CC9D1EA6F0EE00AFD011 /* Assets.xcassets */; };
+		04B4CCA11EA6F0EE00AFD011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B4CC9F1EA6F0EE00AFD011 /* LaunchScreen.storyboard */; };
+		04B4CCAC1EA6F0EE00AFD011 /* RuiLifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B4CCAB1EA6F0EE00AFD011 /* RuiLifeTests.m */; };
+		04B4CCB71EA6F0EE00AFD011 /* RuiLifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B4CCB61EA6F0EE00AFD011 /* RuiLifeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04B4CCA81EA6F0EE00AFD011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B4CC861EA6F0ED00AFD011 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B4CC8D1EA6F0ED00AFD011;
+			remoteInfo = RuiLife;
+		};
+		04B4CCB31EA6F0EE00AFD011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B4CC861EA6F0ED00AFD011 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B4CC8D1EA6F0ED00AFD011;
+			remoteInfo = RuiLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B4CC8E1EA6F0EE00AFD011 /* RuiLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuiLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B4CC921EA6F0EE00AFD011 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04B4CC941EA6F0EE00AFD011 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04B4CC951EA6F0EE00AFD011 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04B4CC971EA6F0EE00AFD011 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04B4CC981EA6F0EE00AFD011 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04B4CC9B1EA6F0EE00AFD011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04B4CC9D1EA6F0EE00AFD011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04B4CCA01EA6F0EE00AFD011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04B4CCA21EA6F0EE00AFD011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B4CCA71EA6F0EE00AFD011 /* RuiLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuiLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B4CCAB1EA6F0EE00AFD011 /* RuiLifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuiLifeTests.m; sourceTree = "<group>"; };
+		04B4CCAD1EA6F0EE00AFD011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B4CCB21EA6F0EE00AFD011 /* RuiLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuiLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B4CCB61EA6F0EE00AFD011 /* RuiLifeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuiLifeUITests.m; sourceTree = "<group>"; };
+		04B4CCB81EA6F0EE00AFD011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B4CC8B1EA6F0ED00AFD011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B4CCA41EA6F0EE00AFD011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B4CCAF1EA6F0EE00AFD011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B4CC851EA6F0ED00AFD011 = {
+			isa = PBXGroup;
+			children = (
+				04B4CC901EA6F0EE00AFD011 /* RuiLife */,
+				04B4CCAA1EA6F0EE00AFD011 /* RuiLifeTests */,
+				04B4CCB51EA6F0EE00AFD011 /* RuiLifeUITests */,
+				04B4CC8F1EA6F0EE00AFD011 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04B4CC8F1EA6F0EE00AFD011 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B4CC8E1EA6F0EE00AFD011 /* RuiLife.app */,
+				04B4CCA71EA6F0EE00AFD011 /* RuiLifeTests.xctest */,
+				04B4CCB21EA6F0EE00AFD011 /* RuiLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04B4CC901EA6F0EE00AFD011 /* RuiLife */ = {
+			isa = PBXGroup;
+			children = (
+				04B4CC941EA6F0EE00AFD011 /* AppDelegate.h */,
+				04B4CC951EA6F0EE00AFD011 /* AppDelegate.m */,
+				04B4CC971EA6F0EE00AFD011 /* ViewController.h */,
+				04B4CC981EA6F0EE00AFD011 /* ViewController.m */,
+				04B4CC9A1EA6F0EE00AFD011 /* Main.storyboard */,
+				04B4CC9D1EA6F0EE00AFD011 /* Assets.xcassets */,
+				04B4CC9F1EA6F0EE00AFD011 /* LaunchScreen.storyboard */,
+				04B4CCA21EA6F0EE00AFD011 /* Info.plist */,
+				04B4CC911EA6F0EE00AFD011 /* Supporting Files */,
+			);
+			path = RuiLife;
+			sourceTree = "<group>";
+		};
+		04B4CC911EA6F0EE00AFD011 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04B4CC921EA6F0EE00AFD011 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04B4CCAA1EA6F0EE00AFD011 /* RuiLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				04B4CCAB1EA6F0EE00AFD011 /* RuiLifeTests.m */,
+				04B4CCAD1EA6F0EE00AFD011 /* Info.plist */,
+			);
+			path = RuiLifeTests;
+			sourceTree = "<group>";
+		};
+		04B4CCB51EA6F0EE00AFD011 /* RuiLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04B4CCB61EA6F0EE00AFD011 /* RuiLifeUITests.m */,
+				04B4CCB81EA6F0EE00AFD011 /* Info.plist */,
+			);
+			path = RuiLifeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04B4CC8D1EA6F0ED00AFD011 /* RuiLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B4CCBB1EA6F0EE00AFD011 /* Build configuration list for PBXNativeTarget "RuiLife" */;
+			buildPhases = (
+				04B4CC8A1EA6F0ED00AFD011 /* Sources */,
+				04B4CC8B1EA6F0ED00AFD011 /* Frameworks */,
+				04B4CC8C1EA6F0ED00AFD011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RuiLife;
+			productName = RuiLife;
+			productReference = 04B4CC8E1EA6F0EE00AFD011 /* RuiLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04B4CCA61EA6F0EE00AFD011 /* RuiLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B4CCBE1EA6F0EE00AFD011 /* Build configuration list for PBXNativeTarget "RuiLifeTests" */;
+			buildPhases = (
+				04B4CCA31EA6F0EE00AFD011 /* Sources */,
+				04B4CCA41EA6F0EE00AFD011 /* Frameworks */,
+				04B4CCA51EA6F0EE00AFD011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B4CCA91EA6F0EE00AFD011 /* PBXTargetDependency */,
+			);
+			name = RuiLifeTests;
+			productName = RuiLifeTests;
+			productReference = 04B4CCA71EA6F0EE00AFD011 /* RuiLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04B4CCB11EA6F0EE00AFD011 /* RuiLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B4CCC11EA6F0EE00AFD011 /* Build configuration list for PBXNativeTarget "RuiLifeUITests" */;
+			buildPhases = (
+				04B4CCAE1EA6F0EE00AFD011 /* Sources */,
+				04B4CCAF1EA6F0EE00AFD011 /* Frameworks */,
+				04B4CCB01EA6F0EE00AFD011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B4CCB41EA6F0EE00AFD011 /* PBXTargetDependency */,
+			);
+			name = RuiLifeUITests;
+			productName = RuiLifeUITests;
+			productReference = 04B4CCB21EA6F0EE00AFD011 /* RuiLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04B4CC861EA6F0ED00AFD011 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = huarui;
+				TargetAttributes = {
+					04B4CC8D1EA6F0ED00AFD011 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					04B4CCA61EA6F0EE00AFD011 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04B4CC8D1EA6F0ED00AFD011;
+					};
+					04B4CCB11EA6F0EE00AFD011 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04B4CC8D1EA6F0ED00AFD011;
+					};
+				};
+			};
+			buildConfigurationList = 04B4CC891EA6F0ED00AFD011 /* Build configuration list for PBXProject "RuiLife" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04B4CC851EA6F0ED00AFD011;
+			productRefGroup = 04B4CC8F1EA6F0EE00AFD011 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04B4CC8D1EA6F0ED00AFD011 /* RuiLife */,
+				04B4CCA61EA6F0EE00AFD011 /* RuiLifeTests */,
+				04B4CCB11EA6F0EE00AFD011 /* RuiLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B4CC8C1EA6F0ED00AFD011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B4CCA11EA6F0EE00AFD011 /* LaunchScreen.storyboard in Resources */,
+				04B4CC9E1EA6F0EE00AFD011 /* Assets.xcassets in Resources */,
+				04B4CC9C1EA6F0EE00AFD011 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B4CCA51EA6F0EE00AFD011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B4CCB01EA6F0EE00AFD011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04B4CC8A1EA6F0ED00AFD011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B4CC991EA6F0EE00AFD011 /* ViewController.m in Sources */,
+				04B4CC961EA6F0EE00AFD011 /* AppDelegate.m in Sources */,
+				04B4CC931EA6F0EE00AFD011 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B4CCA31EA6F0EE00AFD011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B4CCAC1EA6F0EE00AFD011 /* RuiLifeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B4CCAE1EA6F0EE00AFD011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B4CCB71EA6F0EE00AFD011 /* RuiLifeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04B4CCA91EA6F0EE00AFD011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B4CC8D1EA6F0ED00AFD011 /* RuiLife */;
+			targetProxy = 04B4CCA81EA6F0EE00AFD011 /* PBXContainerItemProxy */;
+		};
+		04B4CCB41EA6F0EE00AFD011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B4CC8D1EA6F0ED00AFD011 /* RuiLife */;
+			targetProxy = 04B4CCB31EA6F0EE00AFD011 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04B4CC9A1EA6F0EE00AFD011 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B4CC9B1EA6F0EE00AFD011 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04B4CC9F1EA6F0EE00AFD011 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B4CCA01EA6F0EE00AFD011 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04B4CCB91EA6F0EE00AFD011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04B4CCBA1EA6F0EE00AFD011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04B4CCBC1EA6F0EE00AFD011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = RuiLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.herolife.ruilife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04B4CCBD1EA6F0EE00AFD011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = RuiLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.herolife.ruilife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04B4CCBF1EA6F0EE00AFD011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RuiLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.RuiLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuiLife.app/RuiLife";
+			};
+			name = Debug;
+		};
+		04B4CCC01EA6F0EE00AFD011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RuiLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.RuiLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuiLife.app/RuiLife";
+			};
+			name = Release;
+		};
+		04B4CCC21EA6F0EE00AFD011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RuiLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.RuiLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RuiLife;
+			};
+			name = Debug;
+		};
+		04B4CCC31EA6F0EE00AFD011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RuiLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.RuiLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RuiLife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B4CC891EA6F0ED00AFD011 /* Build configuration list for PBXProject "RuiLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B4CCB91EA6F0EE00AFD011 /* Debug */,
+				04B4CCBA1EA6F0EE00AFD011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B4CCBB1EA6F0EE00AFD011 /* Build configuration list for PBXNativeTarget "RuiLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B4CCBC1EA6F0EE00AFD011 /* Debug */,
+				04B4CCBD1EA6F0EE00AFD011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04B4CCBE1EA6F0EE00AFD011 /* Build configuration list for PBXNativeTarget "RuiLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B4CCBF1EA6F0EE00AFD011 /* Debug */,
+				04B4CCC01EA6F0EE00AFD011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04B4CCC11EA6F0EE00AFD011 /* Build configuration list for PBXNativeTarget "RuiLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B4CCC21EA6F0EE00AFD011 /* Debug */,
+				04B4CCC31EA6F0EE00AFD011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04B4CC861EA6F0ED00AFD011 /* Project object */;
+}
