@@ -1,0 +1,8 @@
+platform :ios, '8.0'
+target "RuiLife"do
+pod 'FMDB'
+pod 'AFNetworking', '~> 3.0'
+pod 'YYModel'
+pod 'Masonry'
+pod 'MJRefresh'
+end
