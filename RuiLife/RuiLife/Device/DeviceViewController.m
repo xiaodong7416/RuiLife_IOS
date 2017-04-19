@@ -7,6 +7,7 @@
 //
 
 #import "DeviceViewController.h"
+#import "LoginViewController.h"
 
 @interface DeviceViewController ()
 
@@ -22,6 +23,10 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)goToLoginAction:(id)sender {
+    
+    [self presentViewController:[LoginViewController new] animated:YES completion:nil];
 }
 
 /*
